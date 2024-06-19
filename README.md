@@ -1,8 +1,8 @@
-# React + Vite
+A) git clone this repo
+B) cd into it
+C) npm i
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+THEN:
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1) Create your supabase database and paste the relevant values inside the .env file (like in the .env.example)
+2) configure your confirmation email template inside supabase so it sends a {.Token}
