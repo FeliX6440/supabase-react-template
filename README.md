@@ -14,9 +14,9 @@ THEN:
 
 
 
-##features:
+# features
 
-**signup:
+**signup:**
 fields: 
 1) First Name,
 2) Last Name,
@@ -25,12 +25,12 @@ fields:
 -> when signing up, confirmation code page opens. when reloaded, back to "/register".
 -> then, when attempting to log in (as unconfirmed account), confirmation code window re-appears with a second button "request code again"
 
-**signin:
+**signin**:
 fields:
 1) First Name,
 2) Last Name
 
-**authenticated route:
+**authenticated route**:
 dashboard 
 
 The whole thing uses useSession and createSession
