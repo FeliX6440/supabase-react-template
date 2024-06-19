@@ -1,6 +1,6 @@
-A) git clone this repo
-B) cd into it
-C) npm i
+1) git clone this repo
+2) cd into it
+3) npm i
 
 THEN:
 
